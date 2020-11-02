@@ -365,7 +365,11 @@ idea中内置了maven ，但是我们一般不使用内置的， 因为用内置
 
 2.配置
 
-file--settings---Build, Execution,Deployment--Build Tools--Maven 
+* 全局配置本地maven，从欢迎界面的设置修改maven！！
+![](./assets/maven-notes-1604327901885.png)
+
+
+* file--settings---Build, Execution,Deployment--Build Tools--Maven 
 ![](assets/maven-notes-1604155942824.png)
 
 Maven Home directory： maven的安装目录。
