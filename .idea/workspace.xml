@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="903ea230-25d8-4810-a862-658d801b4b9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/maven-notes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,8 @@
       <updated>1604194079030</updated>
       <workItem from="1604194081631" duration="250000" />
       <workItem from="1604327390498" duration="40000" />
-      <workItem from="1604327865686" duration="90000" />
+      <workItem from="1604327865686" duration="239000" />
+      <workItem from="1604328117453" duration="2000" />
     </task>
     <servers />
   </component>

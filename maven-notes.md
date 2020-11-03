@@ -129,6 +129,45 @@ C:\Users\imliw>
 ```
 配置成功！
 
+##setting.xml相关配置
+* 阿里云镜像
+
+打开 maven 的配置文件（ windows 机器一般在 maven 安装目录的 conf/settings.xml ），在<mirrors></mirrors>标签中添加 mirror 子节点
+
+```
+<mirror>
+  <id>aliyunmaven</id>
+  <mirrorOf>*</mirrorOf>
+  <name>阿里云公共仓库</name>
+  <url>https://maven.aliyun.com/repository/public</url>
+</mirror>
+```
+![](./assets/maven-notes-1604378262458.png)
+
+* java版本的设定
+```
+  <profiles>
+
+
+    <profile>
+      <id>jdk-11</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+        <jdk>11</jdk>
+      </activation>
+      <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.compilerVersion>11</maven.compiler.compilerVersion>
+      </properties>
+    </profile>
+
+
+  </profiles>
+```
+![](./assets/maven-notes-1604378528007.png)
+
+
 ##第一个maven项目
 
 按照如下步骤，实现第一个 maven 项目，以 maven 推荐的约定方式创建目录，类文件。
